@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import { loadStripe } from '@stripe/stripe-js';
 import axios from 'axios';
 
-const stripePromise = loadStripe('pk_test_51PqGM800jIId68ff3KQO0HGlx5PjAmH1TwwBGKeS5CQ66t377Am64aj7v4j90gnwa2PD4QWpAXielMi96MxCU2cq00kHvn3Yqe');
+const stripePromise = loadStripe('pk_test');
 
 const App = () => {
   const [status, setStatus] = useState("Empty");

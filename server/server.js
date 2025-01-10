@@ -6,7 +6,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 
 // Initialize Stripe with your secret key
-const stripe = Stripe("sk_test_51PqGM800jIId68ffUeQbm2iA6Fu6NbZWuAOv1ipbj7SFmGMiq2cDihHcn2EOVQabqndi2FzADeSjPuzPgwg3mogw00uQPnzZlF");
+const stripe = Stripe("sk_test");
 
 const app = express();
 const port = 5000;
